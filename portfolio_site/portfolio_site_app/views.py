@@ -10,3 +10,14 @@ def sports_view(request):
 
 def finance_view(request):
     return HttpResponse('Finance Page')
+
+
+# Dynamic Views
+articles = {
+    'sports': 'Sport Page',
+    'finance': 'Finance Page',
+    'politics': 'Politics Page'}
+
+
+def news_views(request, topic):
+    return HttpResponse(articles[topic])
