@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseNotFound
 
 
 # Create your views here.
@@ -20,4 +20,9 @@ articles = {
 
 
 def news_views(request, topic):
-    return HttpResponse(articles[topic])
+    try:
+        return HttpResponse(articles[topic])
+
+    except:
+        result = 'Page For Topic Not Found'
+        return HttpResponseNotFound(result)
