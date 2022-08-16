@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+         <h1>THIS IS INSIDE THE BLOCK IN EXAMPLE.HTML</h1>
+         <h1>Hello World Django from</h1>
+
+          {# Varibles and Filters  {{variable| filter}} #}
+          <h1> MR {{first_name | upper}}</h1>
+          <h1>{{ last_name|lower|capfirst }} he is {{ some_dict.inside_key | capfirst}} number {{ some_list.0 }} software Engineer in the world</h1>
+          <h1>{#This is a comment#}</h1>
+
+
+         {#   Tags {%  your logic comes here %} #}
+         <ul>
+             {# For Loop Tag #}
+
+             {%for item in some_list%}
+                <li>{{item}}</li>
+             {%endfor%}
+          </ul>
+
+
+          {# if , Elif, Else ag #}
+          {% if user_logged_in %}
+             <h1> Welcome back you are logged in</h1>
+          {% else %}
+              <h1> Please Log in </h1>
+          {% endif %}
+
+
+          {# Tags and URL Names i Templates#}
+         <h1><a href="{% url 'portfolio_site_app:sports'%}"> CLICK ME TO GO TO VARIABLE</a></h1>
+{% endblock  %}

@@ -35,3 +35,17 @@ def num_page_view(request, num_page):
     topic = topics_list[num_page]
     webpage = reverse('topic-page', args=[topic])
     return HttpResponseRedirect(webpage)
+
+
+def example_view(request):
+    my_var = {'first_name': 'Elvis',
+              'last_name': 'Masiya',
+              'some_dict':{'inside_key': 'the'},
+              'some_list': [1, 2, 3],
+              'user_logged_in': False
+
+              }
+
+    # Full URL is
+    # portfolio_site_app/templates/portfolio_site_app/example.html
+    return render(request, 'portfolio_site_app/example.html', context=my_var)
