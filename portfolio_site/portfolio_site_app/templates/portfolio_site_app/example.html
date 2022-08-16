@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
          <h1>THIS IS INSIDE THE BLOCK IN EXAMPLE.HTML</h1>
@@ -30,4 +31,11 @@
 
           {# Tags and URL Names i Templates#}
          <h1><a href="{% url 'portfolio_site_app:sports'%}"> CLICK ME TO GO TO VARIABLE</a></h1>
+
+         {# Loading Static Files #}
+          <img src=" {% static  'portfolio_site_app/MyPost.png' %}", alt="MyPost">
+
+
+
+
 {% endblock  %}
