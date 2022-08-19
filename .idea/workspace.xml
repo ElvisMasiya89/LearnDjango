@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1242c26-42ee-42db-884f-fbdd9f6be034" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/MyPost.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/static/portfolio_site_app/MyPost.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +47,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio_site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\LearnDjango\portfolio_site\portfolio_site_app\static\portfolio_site_app" />
       <recent name="C:\Users\Admin\PycharmProjects\LearnDjango\portfolio_site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

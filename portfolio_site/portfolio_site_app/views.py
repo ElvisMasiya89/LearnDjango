@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
+from . import models
 
 
 # Create your views here.
@@ -40,7 +41,7 @@ def num_page_view(request, num_page):
 def example_view(request):
     my_var = {'first_name': 'Elvis',
               'last_name': 'Masiya',
-              'some_dict':{'inside_key': 'the'},
+              'some_dict': {'inside_key': 'the'},
               'some_list': [1, 2, 3],
               'user_logged_in': False
 
@@ -49,3 +50,9 @@ def example_view(request):
     # Full URL is
     # portfolio_site_app/templates/portfolio_site_app/example.html
     return render(request, 'portfolio_site_app/example.html', context=my_var)
+
+
+def list_patients(request):
+    all_patients = models.Patient.objects.all()
+    context_list = {'patients': all_patients}
+    return render(request, 'portfolio_site_app/list.html', context=context_list)
