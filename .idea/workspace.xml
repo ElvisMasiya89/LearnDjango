@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1242c26-42ee-42db-884f-fbdd9f6be034" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/cars/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/cars/static/cars/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/cars/templates/cars/rental_review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/cars/templates/cars/thank_you.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/cars/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -48,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,5 +106,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysite/cars/views.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
