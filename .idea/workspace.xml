@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1242c26-42ee-42db-884f-fbdd9f6be034" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/cars/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/cars/static/cars/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/cars/templates/cars/rental_review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/cars/templates/cars/thank_you.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/cars/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/my_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/thank_you.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/classroom/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_site/portfolio_site_app/templates/portfolio_site_app/example.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
