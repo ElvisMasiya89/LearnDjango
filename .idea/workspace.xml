@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1242c26-42ee-42db-884f-fbdd9f6be034" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/school/classroom/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/my_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/teacher_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/templates/classroom/thank_you.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/classroom/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
