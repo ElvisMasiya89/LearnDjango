@@ -1,4 +1,5 @@
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render
 from django.views.generic import TemplateView, FormView, CreateView, ListView, DetailView, UpdateView, DeleteView
@@ -12,6 +13,12 @@ from .models import Teacher
 @login_required  # This allows only User who are logged in to get access to this view
 def my_view(request):
     return render(request, 'classroom/my_view.html')
+
+
+class SignUpView(CreateView):
+    form_class = UserCreationForm
+    success_url = reverse_lazy('login')
+    template_name = 'classroom/signup.html'
 
 
 class HomeView(TemplateView):
